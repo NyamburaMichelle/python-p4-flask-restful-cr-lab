@@ -7,3 +7,5 @@ class Plant(db.Model, SerializerMixin):
     __tablename__ = 'plants'
 
     id = db.Column(db.Integer, primary_key=True)
+
+
